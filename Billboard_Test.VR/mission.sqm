@@ -1,0 +1,188 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_EPC",
+		"a3_characters_f",
+		"A3_Billboards",
+		"map_vr"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_EPC",
+		"a3_characters_f",
+		"A3_Billboards",
+		"map_vr"
+	};
+	randomSeed=768460;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4000.0022,5,4000.0205};
+					id=0;
+					side="CIV";
+					vehicle="C_Nikos_aged";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=4;
+		class Item0
+		{
+			position[]={4000.0425,5,4008.0532};
+			id=1;
+			side="EMPTY";
+			vehicle="A3_Billboard_Single_High";
+			skill=0.60000002;
+			text="SIGN_1";
+		};
+		class Item1
+		{
+			position[]={3962.1714,5,3999.9792};
+			azimut=-90.230698;
+			id=2;
+			side="EMPTY";
+			vehicle="A3_Billboard_Single_High";
+			skill=0.60000002;
+			text="SIGN_2";
+		};
+		class Item2
+		{
+			position[]={4098.9023,5,3999.7346};
+			azimut=90;
+			id=3;
+			side="EMPTY";
+			vehicle="A3_Billboard_Single_High";
+			skill=0.60000002;
+			text="SIGN_4";
+		};
+		class Item3
+		{
+			position[]={3999.9683,5,3948.3013};
+			azimut=180;
+			id=4;
+			side="EMPTY";
+			vehicle="A3_Billboard_Single_High";
+			skill=0.60000002;
+			text="SIGN_3";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"map_vr"
+	};
+	addOnsAuto[]=
+	{
+		"map_vr"
+	};
+	randomSeed=14991774;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"map_vr"
+	};
+	addOnsAuto[]=
+	{
+		"map_vr"
+	};
+	randomSeed=2922279;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"map_vr"
+	};
+	addOnsAuto[]=
+	{
+		"map_vr"
+	};
+	randomSeed=2176447;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};
